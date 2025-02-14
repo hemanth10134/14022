@@ -8,7 +8,7 @@ import './styles/frontpage.css';
 export default function FrontPage() {
     const [text, setText] = useState('');
     const sentence = "We have known each other from a long time but today I have something important to tell you...\n";
-    const typingSpeed = 200; // Adjust typing speed here
+    const typingSpeed = 350; // Adjust typing speed here
 
     useEffect(() => {
         const typeSentence = (index) => {
@@ -66,7 +66,7 @@ export default function FrontPage() {
                     </p>
                 </div>
                 <div className="autor text-author absolute bottom-8 left-10 rotate-45">
-                    ~ Manas
+                    ~ Hem
                 </div>
             </div>
             <div className="content-ask text-white z-10 flex flex-col flex-wrap gap-6 justify-center items-center">
