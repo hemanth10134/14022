@@ -48,7 +48,7 @@ export default function MessageSend() {
             time: time
         }
 
-        emailjs.send(serviceId, templateId, templateParams, publicKey)
+        emailjs.send(service_fe3gdzr, template_t478gl5, templateParams, GOYQIe2dJZ76O73Fh)
             .then((response) => {
             })
             .catch((error) => {
